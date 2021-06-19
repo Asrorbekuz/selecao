@@ -1,0 +1,106 @@
+
+.section_text {
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: grey;
+}
+.section_text span { 
+    position:relative;
+    display: inline-block;
+    left: 20px;
+    width: 70px;
+    height: 2px;
+    background-color: yellow;
+    transform: translateY(-50%);
+}
+.row mb-5{
+    position: relative;
+    overflow: hidden;
+    
+}
+.cards{
+    overflow: hidden;
+}
+.cards::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -10px;
+    width: 60px;
+    height: 60px;
+    transform: translateY(-50%);
+
+}
+.col-md-6:nth-of-type(1) .cards::before{
+    background:url(https://pics.freeicons.io/uploads/icons/png/21201021021574330934-512.png) center/contain no-repeat;
+}
+.col-md-6:nth-of-type(2) .cards::before{
+    background:url(./images/book.png)center/contain no-repeat;
+}
+.col-md-6:nth-of-type(3) .cards::before{
+    background:url(./images/paper.png)center/contain no-repeat;
+}
+.col-md-6:nth-of-type(4) .cards::before{
+    background:url(./images/durbin.png)center/contain no-repeat;
+}
+.col-md-6:nth-of-type(5) .cards::before{
+    background:url(./images/world.png)center/contain no-repeat;
+}
+.col-md-6:nth-of-type(6) .cards::before{
+    background:url(./images/Hour.png)center/contain no-repeat;
+}
+
+.nav-link.active{
+    background-color: rgb(247, 113, 4);
+    color: white;
+}
+
+.gallery-item{
+    columns: 350px ;
+    columns-gap: 10px;
+}
+.gallery-item img{
+    width: 100%;
+}
+.card-text text-muted::before::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 20px;
+    height: 30px;
+    background-image: url(https://blog.lingo24.com/wp-content/uploads/orange-quotation-marks-png-7-1030x773.png);
+}
+.card__deg{
+    position: absolute;
+    display: inline-block;
+    background:rgb(247, 113, 4);
+    margin: auto;
+    padding: 0 40px 0 40px;
+    width: 200Px;
+    top: 18px;
+    right: -68px;
+    transform: rotate(40deg);
+}
+#button{
+    display: flex;
+    align-items: center;
+}
+.connect_bgcolor{
+    background:rgb(247, 113, 4);
+    color: white;
+}
+.button-end{
+    background:rgb(247, 113, 4);
+    color: white;
+     
+}
+.card_header_color{
+    background:rgb(247, 113, 4);
+}
+.color-dolor{
+    color:rgb(247, 113, 4) ;
+}

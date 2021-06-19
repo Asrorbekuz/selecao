@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bootstrap </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <header class="bg-dark">
+        <nav class="navbar  nav-fill navbar-expand-md navbar-dark bg-dark fixed-top" id="navbar-example">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <p class="lead">Selecao</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarsupportedcontent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarsupportedcontent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3 text-light active" href="#Home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3 text-light" href="#About">About </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3 text-light" href="#Services"> Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3 text-light" href="#Portfolio"> Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3 text-light" href="#Pricing"> Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3 text-light" href="#Team"> Team</a>
+                        </li>
+                        <li class="nav-item dropdown" style="cursor: pointer;">
+                            <a class=" nav-link rounded-pill px-3 text-light dropdown-toggle" href="" id="navbardropdown" data-bs-toggle="dropdown">
+                                Drop Down
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbardropdown">
+                                <li><a class="dropdown-item" href="#"> HTML </a></li>
+                                <li><a class="dropdown-item" href="#"> CSS </a></li>
+                                <li><hr class="dropdown-divider"></hr></li>
+                                <li><a class="dropdown-item" href="#"> JavaScript</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link rounded-pill px-3 text-light" href="#contact"> Contact</a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <br>
+        <div class="container" id="Home">
+            <div class="row">
+                <div class="carousel slide my-5" id="carouselexample" data-bs-ride="carousel">
+                    <div class="carousel-inner w-75 mx-auto text-center text-light">
+                        <div class="carousel-item active" data-bs-interval="4000">
+                            <h2 class="text-muted">Sequi ea ut est quaerat </h2>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, consequuntur
+                                amet
+                                modi deserunt minus sapiente omnis a ratione quis quo numquam consectetur similique
+                                deleniti ut
+                                molestiae error, velit temporibus expedita aliquam maxime iusto? Quaerat beatae
+                                voluptatem possimus
+                                quas, est mollitia.</p>
+                            <button class="btn btn-outline-warning text-light rounded-pill"> Read More </button>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <h2 class="text-muted"> Alitech Dasturlash kompaniyasi </h2>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, consequuntur
+                                amet
+                                modi deserunt minus sapiente omnis a ratione quis quo numquam consectetur similique
+                                deleniti ut
+                                molestiae error, velit temporibus expedita aliquam maxime iusto? Quaerat beatae
+                                voluptatem possimus
+                                quas, est mollitia.</p>
+                            <button class="btn btn-outline-primary text-light rounded-pill"> Read More </button>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                            <h2 class="text-muted"> Lorem Ipsum dolor sit amet consectetur </h2>
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, consequuntur
+                                amet
+                                modi deserunt minus sapiente omnis a ratione quis quo numquam consectetur similique
+                                deleniti ut
+                                molestiae error, velit temporibus expedita aliquam maxime iusto? Quaerat beatae
+                                voluptatem possimus
+                                quas, est mollitia.</p>
+                            <button class="btn btn-outline-danger text-light rounded-pill"> Read More </button>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselexample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselexample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="About">
+        <div class="container small">
+            <div class="row">
+                <div class="col">
+                    <p class="section_text">About <span></span></p>
+                    <h3 class="section_title">WHO WE ARE</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 mt-5">
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum provident? Alias placeat
+                        odio ipsum
+                        neque enim officiis
+                    </p>
+                    <p>
+                        &#1285299; Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                        <br>&#1285299; Duis aute irure dolor in reprehenderit in voluptate velit
+                        <br>&#1285299; Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    </p>
+                </div>
+
+                <div class="col-sm-12 col-md-6 mt-5">
+                    <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum aut deleniti
+                        dolorem,
+                        veritatis aliquam iste officia illum architecto voluptatum officiis error illo tenetur excinit
+                        Lorem, </p>
+                    <button class="btn btn-outline-warning w-25%"> Learn More </button>
+
+                </div>
+            </div>
+            <br>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-md-3">
+                    <div class="d-flex align-items-center p-3 my-3 border connect_bgcolor">
+                        <div>
+                            <i class="fas fa-wifi fs-1 me-3"></i>
+                        </div>
+                        <div class="lead fs-5">
+                            Modi sit ets dela pireda nest
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="d-flex align-items-center p-3 my-3 border">
+                        <div>
+                            <i class="fas fa-archway fs-1 me-3"></i>
+                        </div>
+                        <div class="lead fs-5">
+                            Unde praesenti mara setra le
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="d-flex align-items-center p-3 my-3 border">
+                        <div>
+                            <i class="far fa-sun fs-1 me-3"></i>
+                        </div>
+                        <div class="lead fs-5">
+                            Pariatur explica nitro dela
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="d-flex align-items-center p-3 my-3 border">
+                        <div>
+                            <i class="fas fa-birthday-cake fs-1 me-3"></i>
+                        </div>
+                        <div class="lead fs-5">
+                            Nostrum qui dile node
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="fs-4 lead">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda
+                    </div>
+                    <p></p>
+                    <p class="font-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolores
+                        accusantium doloremque eligendi </p>
+                    <p>
+                        &#1285299; Ullamco laboris nisi ut aliquip ex ea commodo consequat
+                    <p></p>
+                    &#1285299; Duis aute irure dolor in reprehenderit in voluptate velit
+                    <p></p>
+                    &#1285299; Ullamco laboris nisi ut aliquip ex ea commodo consequat Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sed enim fugit Lorem
+                    ipsum dolor sit amet Lorem ipsum dolor sit amet.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eaque sed perferendis sapiente
+                        debitis iste, expedita, alias accusantium hic voluptatum eum maiores qui eius earum voluptate
+                        itatis at omnis magnam? Minima culpa nihil aliquam soluta molestias earum ab ipsum quas.</p>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <img src="./images/HDD.jpg" class="img-fluid rounded" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+     <section>
+        <div class="container-fluid bg-dark">
+            <div class="container text-white">
+                <div class="row">
+                    <div class="col-8 mt-5 mb-5">
+                        <h2 class="h2 lead text-secondary">Call To Action </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, ullam laborum similique
+                            perspiciatis
+                            voluptatum sunt quod sed excepturi eum! Reiciendis voluptates doloremque sequi, et dolorem
+                        </p>
+                    </div>
+                    <div class="col-4 mt-5 mb-5 align-items-center d-flex align-items-center">
+                        <button class="btn button-end btn-md rounded-pill text-white lead"> CALL TO ACTION </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Services">
+        <div class="container">
+            <div class="row mb-3">
+                <p class="section_text"> service <span></span></p>
+                <h3 class="text-uppercase"> what we do offer</h3>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card cards ps-5 shadow">
+                        <div class="card-body">
+                            <p class="card-title text-muted fs-4"> Lorem Ipsum</p>
+                            <p class="card-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Enim
+                                excepturi illum quidem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card cards ps-5 shadow">
+                        <div class="card-body">
+                            <p class="card-title text-muted fs-4"> Lorem Ipsum</p>
+                            <p class="card-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Enim
+                                excepturi illum quidem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card cards ps-5 shadow">
+                        <div class="card-body">
+                            <p class="card-title text-muted fs-4"> Lorem Ipsum</p>
+                            <p class="card-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Enim
+                                excepturi illum quidem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card cards ps-5 shadow">
+                        <div class="card-body">
+                            <p class="card-title text-muted fs-4"> Lorem Ipsum</p>
+                            <p class="card-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Enim
+                                excepturi illum quidem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card cards ps-5 shadow">
+                        <div class="card-body">
+                            <p class="card-title text-muted fs-4"> Lorem Ipsum</p>
+                            <p class="card-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Enim
+                                excepturi illum quidem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="card cards ps-5 shadow">
+                        <div class="card-body">
+                            <p class="card-title text-muted fs-4"> Lorem Ipsum</p>
+                            <p class="card-text">Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Enim
+                                excepturi illum quidem!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Portfolio">
+        <div class="container">
+            <div class="row">
+                <p class="section_text"> Portfolio <span></span></p>
+                <h3 class="section_title"> WHAT WE'VE DONE </h3>
+                <div class="col mb-3">
+                    <div class="nav nav-pills mb-3">
+                        <a href="" class="nav-link active ms-auto" data-bs-toggle="pill" data-bs-target="#tab1"> ALL</a>
+                        <a href="" class="nav-link" data-bs-toggle="pill" data-bs-target="#tab2"> COMPUTER </a>
+                        <a href="" class="nav-link" data-bs-toggle="pill" data-bs-target="#tab3"> PHONE</a>
+                        <a href="" class="nav-link" data-bs-toggle="pill" data-bs-target="#tab4"> CARD </a>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-pane show active" id="tab1">
+                            <div class="gallery-item">
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/08/05/10/30/iphone-410324__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/03/18/19/social-media-1795578__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2018/09/15/19/58/credit-3680209__340.png"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/09/24/14/29/macbook-459196__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/03/17/17/25/modern-technologies-1263422__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/11/03/17/45/thank-you-515514__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2017/12/22/08/01/paper-3033204__340.jpg"
+                                        alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab2">
+                            <div class="gallery-item">
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/05/02/21/50/laptop-336378__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/05/02/21/50/blogging-336376__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/05/02/21/48/blogger-336371__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/29/06/18/home-office-1867761__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/05/02/21/50/blogging-336376__340.jpg"
+                                        alt="">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab3">
+                            <div class="gallery-item">
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2014/08/05/10/27/iphone-410311__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/22/23/40/hands-1851218__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/02/19/11/42/selfie-1209886__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2017/07/15/19/42/manipulation-smartphone-2507499__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/03/27/19/43/samsung-1283938__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/11/20/12/03/brown-leather-shoes-1842606__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2019/11/23/11/33/mobile-phone-4646854__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2015/06/08/15/32/phone-802125__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2019/11/05/00/53/cellular-4602489__340.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane" id="tab4">
+                            <div class="gallery-item">
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2018/07/13/18/54/credit-card-3536349__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/06/06/09/48/money-1439125__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2018/04/07/00/20/visa-card-3297475__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2018/01/14/23/05/visa-3082813__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2015/02/05/08/10/iphone-624709__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2018/09/15/19/58/credit-3680209__340.png"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2016/06/06/09/48/money-1439125__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2018/04/07/00/20/visa-card-3297475__340.jpg"
+                                        alt="">
+                                </div>
+                                <div class="mb-2">
+                                    <img src="https://cdn.pixabay.com/photo/2018/01/14/23/05/visa-3082813__340.jpg"
+                                        alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                <p class="section_text"> TESTIMONIALS <span></span></p>
+                <h3 class="section_title"> WHAT THEY ARE SAYING ABOUT US </h3>
+              </div>
+          </div>
+          <div class="row mt-4">
+              <div class="col-md-4">
+                  <div class="card  text-center shadow">
+                    <div class="card-body">
+                        <p class="card-text text-muted">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Magni officia voluptate fuga illum. Praesentium, illum 
+                            blanditiis? Aspernatur earum rerum ad magni cum, ratione 
+                            fugiat eveniet quis 
+                        </p>
+                        <img src="./images/panda1.jpg" class="rounded-circle card-img my-2" style="width: 80px; height: 80px;" alt="">
+                          <div class="card-title">
+                              <p class="h2 lead"> John Larson </p>
+                              <p class="fw-small" style="opacity: 0.6;">Enterpreneur</p>
+                          </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card  text-center shadow">
+                  <div class="card-body">
+                      <p class="card-text text-muted">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Magni officia voluptate fuga illum. Praesentium, illum 
+                          blanditiis? Aspernatur earum rerum ad magni cum, ratione 
+                          fugiat eveniet quis 
+                      </p>
+                      <img src="./images/panda2.jpg" class="rounded-circle card-img my-2" style="width: 80px; height: 80px;" alt="">
+                        <div class="card-title">
+                            <p class="h2 lead"> Saul Goodman </p>
+                            <p class="fw-small" style="opacity: 0.6;"> Coo & Founder</p>
+                        </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card  text-center shadow">
+                  <div class="card-body">
+                      <p class="card-text text-muted">
+                          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                          Magni officia voluptate fuga illum. Praesentium, illum 
+                          blanditiis? Aspernatur earum rerum ad magni cum, ratione 
+                          fugiat eveniet quis 
+                      </p>
+                      <img src="./images/mushuk.jpg" class="rounded-circle card-img my-2" style="width: 80px; height: 80px;" alt="">
+                        <div class="card-title">
+                            <p class="h2 lead"> Sara Wilson </p>
+                            <p class="fw-small" style="opacity: 0.6;"> Designer</p>
+                        </div>
+                  </div>
+                </div>
+            </div>
+       </div>
+      </div>  
+    </section>
+    <section  id="Pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                  <p class="section_text"> PRICING <span></span></p>
+                  <h3 class="section_title"> OUR COMPETING PRICES </h3>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                      <div class="card-header">
+                        <p class="my-4" style="opacity: 0.5;"> Free </p>
+                      </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-muted"> <span class="fs-1 color-dolor ">$0 </span>/month  </p>
+                            </div>
+                            <div class="card-text">
+                                <p>Aida dere</p>
+                                <p>Nec Feugiat nisl</p>
+                                 <p> Nulla at volutpat dola</p> 
+                                 <p style="opacity: 0.5;"> <del> Pharetra massa </del></p>
+                                 <p style="opacity: 0.5;"> <del> Massa ultricies mi </del></p>
+                            </div>
+                       </div> 
+                       <div class="card-footer lead">
+                        <button class="btn  rounded-pill lead button-end text-white"> Buy Now </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center" style="border: 1px solid rgb(247, 113, 4);">
+                      <div class="card-header card_header_color">
+                         <p class="my-4 text-white" style="opacity: 0.5;"> Business </p>
+                      </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-muted"> <span class="fs-1 color-dolor">$19 </span>/month  </p>
+                            </div>
+                            <div class="card-text">
+                                <p>Aida dere</p>
+                                <p>Nec Feugiat nisl</p>
+                                 <p> Nulla at volutpat dola</p> 
+                                 <p> Pharetra massa</p>
+                                 <p style="opacity: 0.5;"><del> Massa ultricies mi </del></p>
+                            </div>
+                       </div> 
+                       <div class="card-footer lead">
+                        <button class="btn  rounded-pill lead button-end text-white"> Buy Now </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                      <div class="card-header">
+                        <p class="my-4" style="opacity: 0.5;"> Developer </p>
+                      </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-muted"> <span class="fs-1 color-dolor">$29 </span>/month  </p>
+                            </div>
+                            <div class="card-text">
+                                <p>Aida dere</p>
+                                <p>Nec Feugiat nisl</p>
+                                 <p> Nulla at volutpat dola</p> 
+                                 <p>  Pharetra massa </p>
+                                 <p> Massa ultricies mi </p>
+                            </div>
+                       </div> 
+                       <div class="card-footer lead">
+                        <button class="btn  rounded-pill lead button-end text-white"> Buy Now </button>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center overflow-hidden" >
+                      <div class="card-header" style="position: relative;">
+                        <p class="my-4" style="opacity: 0.5;"> Ultimate </p>
+                        <div class="card__deg text-white">
+                             Advanced 
+                        </div>
+                      </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <p class="text-muted"> <span class="fs-1 color-dolor">$49 </span>/month  </p>
+                            </div>
+                            <div class="card-text">
+                                <p>Aida dere</p>
+                                <p>Nec Feugiat nisl</p>
+                                 <p> Nulla at volutpat dola</p> 
+                                 <p>  Pharetra massa </p>
+                                 <p> Massa ultricies mi </p>
+                            </div>
+                       </div> 
+                       <div class="card-footer lead">
+                        <button class="btn  rounded-pill lead button-end text-white"> Buy Now </button>
+                    </div>
+                    </div>
+                </div>
+           </div>
+        </div>  
+      </section>
+    <section>
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col">
+                    <p class="section_text"> F.A.Q <span></span></p>
+                    <h3 class="section_title"> FREQUENTLY ASKED QUESTIONS</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="accordion accordion-flush">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#accordion1">
+                                Non consectuter a erat nam at lectus urna duis? </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="accordion1">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore obcaecati
+                                eaque
+                                sapiente, voluptate,
+                                emporibus a nisi cum ea suscipit impedit. Dolor odio nemo error nostrum rem quisquam
+                                quas
+                                sapiente, doloremque
+                                delectus blanditiis iste, pariatur laboriosam ullam reprehenderit repudiandae ab
+                                doloribus non
+                                sint quo sunt.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#accordion2">
+                                Feugiat
+                                scelerisque varius morbi enim nunc faucibus a pellentesque? </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="accordion2">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore obcaecati
+                                eaque
+                                sapiente, voluptate,
+                                emporibus a nisi cum ea suscipit impedit. Dolor odio nemo error nostrum rem quisquam
+                                quas
+                                sapiente, doloremque
+                                delectus blanditiis iste, pariatur laboriosam ullam reprehenderit repudiandae ab
+                                doloribus non
+                                sint quo sunt.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#accordion3">
+                                Dolor sit
+                                amet consectuter adipiscing elit pellentesque habitant morbi? </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="accordion3">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore obcaecati
+                                eaque
+                                sapiente, voluptate,
+                                emporibus a nisi cum ea suscipit impedit. Dolor odio nemo error nostrum rem quisquam
+                                quas
+                                sapiente, doloremque
+                                delectus blanditiis iste, pariatur laboriosam ullam reprehenderit repudiandae ab
+                                doloribus non
+                                sint quo sunt.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#accordion4"> Ac
+                                odio tempor
+                                orci dapibos. Aliquam eleifend mi in nulla? </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="accordion4">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore obcaecati
+                                eaque
+                                sapiente, voluptate,
+                                emporibus a nisi cum ea suscipit impedit. Dolor odio nemo error nostrum rem quisquam
+                                quas
+                                sapiente, doloremque
+                                delectus blanditiis iste, pariatur laboriosam ullam reprehenderit repudiandae ab
+                                doloribus non
+                                sint quo sunt.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#accordion5">
+                                Tempus quam
+                                pellentesque nec nam aliquam sem at tortor consequat? </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="accordion5">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore obcaecati
+                                eaque
+                                sapiente, voluptate,
+                                emporibus a nisi cum ea suscipit impedit. Dolor odio nemo error nostrum rem quisquam
+                                quas
+                                sapiente, doloremque
+                                delectus blanditiis iste, pariatur laboriosam ullam reprehenderit repudiandae ab
+                                doloribus non
+                                sint quo sunt.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#accordion6">
+                                Tortor vitae
+                                purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="accordion6">
+                            <div class="accordion-body">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis tempore obcaecati
+                                eaque
+                                sapiente, voluptate,
+                                emporibus a nisi cum ea suscipit impedit. Dolor odio nemo error nostrum rem quisquam
+                                quas
+                                sapiente, doloremque
+                                delectus blanditiis iste, pariatur laboriosam ullam reprehenderit repudiandae ab
+                                doloribus non
+                                sint quo sunt.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="Team">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="section_text"> Team <span></span></p>
+                    <h3 class="section_title"> OUR HARDWORKING TEAM </h3>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjXG2cwTGwrcDI7E1hYCPkmD8oS7MjxHYJOw&usqp=CAU"
+                            alt="" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <div class="card-title lead"> Waiter White </div>
+                            <p class="card-text small">Chief Executive Officer </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow">
+                        <img src="https://images.unsplash.com/photo-1486074051793-e41332bf18fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80"
+                            alt="" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <div class="card-title lead"> Sarah Johnson </div>
+                            <p class="card-text small"> Product Manager </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow">
+                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                            alt="" class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <div class="card-title lead"> William Anderson </div>
+                            <p class="card-text small"> CTO </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow">
+                        <img src="https://cdn.pixabay.com/photo/2018/07/28/09/23/girl-3567600__340.jpg" alt=""
+                            class="img-fluid card-img-top">
+                        <div class="card-body">
+                            <div class="card-title lead"> Amanda Jepson </div>
+                            <p class="card-text small"> Accountant </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="section_text"> Contact<span></span></p>
+                    <h3 class="section_title"> CONTACT US </h3>
+                </div>
+            </div>
+            <div class="row mt-5">
+             <div class="col-md-5">
+                       <div class="row mb-5">
+                        <div class="col-2 d-flex align-items-center">
+                            <i class="fas fa-search-location fs-1"></i>
+                      </div>
+                      <div class="col-9">
+                          <div class="row">
+                            <h1 class="lead">Location:</h1>
+                          </div>
+                        <div class="row">
+                            <p class="fw-bold"> 150 Tashkent street, Jizzakh </p>
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row mb-5">
+                      <div class="col-2 d-flex align-items-center">
+                          <i class="far fa-envelope fs-1"></i>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                          <h1 class="lead">Email:</h1>
+                        </div>
+                      <div class="row">
+                          <p class="fw-bold">info@QayumovAsror2003.com</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-2 d-flex align-items-center">
+                        <i class="fas fa-phone-alt fs-1"></i>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                            <h1 class="lead">Call:</h1>
+                        </div>
+                        <div class="row">
+                            <p class="fw-bold">+998912071575</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+               <div class="col-md-7">
+                    <div class="row mb-3">
+                        <div class="col">
+                            <form action="https://QayumovAsror2003@gmail.com">
+                                <input class="form-control" type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <input type="text" name="" class="form-control mb-3" placeholder="Subject" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="form-control"> </textarea>
+                    <br>
+                    <button class="btn button-end rounded-pill" style=" margin-left: 42%;"> Send Message </button>
+                    </form>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer bg-dark mt-5 text-white w-100 h-auto">
+      <div class="container">
+          <div class="row">
+              <div class="col mt-2">
+                  <p class="h2 fs-1 d-flex justify-content-center ">Selecao</p>
+                  <p class="font-italic d-flex justify-content-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum voluptates ipsa labore ab quia commodi iusto.</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col d-flex justify-content-center my-3">
+                  <i class="fab fa-twitter fs-2 me-3"></i>
+                  <i class="fab fa-facebook-f fs-2 me-3"></i>
+                  <i class="fab fa-instagram fs-2 me-3"></i>
+                  <i class="fab fa-skype fs-2 me-3"></i>
+                  <i class="fab fa-linkedin-in fs-2 me-3"></i>
+
+  
+              </div>
+          </div>
+          <div class="row">
+              <div class="col d-flex justify-content-center">
+                  <div>&copy;Copyright <span class="fw-bold">Selecao</span>. All Rights Reserved</div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col d-flex justify-content-center mb-3">
+                <div>Designed by <span class="text-warning">BootstrapMade</span></div>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
